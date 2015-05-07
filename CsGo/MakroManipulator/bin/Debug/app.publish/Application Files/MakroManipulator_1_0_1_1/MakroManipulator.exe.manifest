@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MakroManipulator.exe" version="1.0.1.1" publicKeyToken="a4a4a95502b08979" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MakroManipulator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MakroManipulator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MakroManipulator.exe" size="376832">
+      <assemblyIdentity name="MakroManipulator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+REUUV3oDUj12NODtCUwLNuReHoZqvnAupu6dAGBxeY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MouseKeyboardActivityMonitor.dll" size="45056">
+      <assemblyIdentity name="MouseKeyboardActivityMonitor" version="4.0.5150.10665" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ybXp6heswvmq7pFZg2vhNXAJQGSm7fowl8jbf5izpgA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MakroManipulator.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WORKGROUP\mkrone" issuerKeyHash="462c7305e0a85d74ba5484f4a1b69154215d0ef5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b01GSU8T4acUj4wjG/8YTue46+md9XXLrVC3ltpp0SI=</DigestValue></Reference></SignedInfo><SignatureValue>Qzd04rdEQGMMFPO/2TAIniRo7QajZxtMegnE99JSVYdAPYfbPr7RYNKoSdYSYb7F8mzgH7iAOGUY3t8mzY8y+wlfzYUCgUU21Pk/4Hr09Om+pjT8SazhKU3j5AmOboN1e6mz0CsTfrMyyZ1N5HrUJKwmTsb+Y3ti1fbs5NrFaN0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>33bcaFCTkdcyRMFaPdIBmMxsIhZInY1oFzKp9/n8v2WHXzOhLnOkGoTS0mRREUFXKvUB0guWtqyPnoF49H67g6GTL2dwdc2NCeSmu3Fj6ePiSNtwbIMiyhFRoLF5ji0fiWJjAND555LOP7i+XfTwm/VPqmout3rg2tfJJgckFc8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="22d169da96b750adcb75f59de9ebb8e74e18ff1b238c8f14a7e1134f49464d6f" Description="" Url=""><as:assemblyIdentity name="MakroManipulator.exe" version="1.0.1.1" publicKeyToken="a4a4a95502b08979" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WORKGROUP\mkrone</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wsHXmiZjQ2Gj9JyHVLJtWrKWfQ8RTrNvnwHxZhYjRmk=</DigestValue></Reference></SignedInfo><SignatureValue>D2BL7wy1fjYxyOjGRHIAMu7XX0NqtK7PSBAo916kT2QESNJOOYQhcZR+m29V3gRvSMPPyEr0G9ZvNPa7jsM5/sJc7UACNoca/WH7+iEksbVxfVFG7fUPsxdSkm/5F+MDs9GVPQS6tkU3CkQHZOsdWqiRPAy9uH0s0vbowJp6Qo4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>33bcaFCTkdcyRMFaPdIBmMxsIhZInY1oFzKp9/n8v2WHXzOhLnOkGoTS0mRREUFXKvUB0guWtqyPnoF49H67g6GTL2dwdc2NCeSmu3Fj6ePiSNtwbIMiyhFRoLF5ji0fiWJjAND555LOP7i+XfTwm/VPqmout3rg2tfJJgckFc8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQNbXVwJrE87hLbKC7WKcdkTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAVwBPAFIASwBHAFIATwBVAFAAXABtAGsAcgBvAG4AZTAeFw0xNTA1MDYxNTAzNDlaFw0xNjA1MDUyMTAzNDlaMCsxKTAnBgNVBAMeIABXAE8AUgBLAEcAUgBPAFUAUABcAG0AawByAG8AbgBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfdtxoUJOR1zJEwVo90gGYzGwiFkidjWgXMqn3+fy/ZYdfM6Euc6QahNLSZFERQVcq9QHSC5a2rI+egXj0fruDoZMvZ3B1zY0J5Ka7cWPp4+JI23BsgyLKEVGgsXmOLR+JYmMA0Pnnks4/uL5d9PCb9U+qai63euDa18kmByQVzwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALBxnECRNm+0DUu7KS6+QxttNzrAvGBBNrgzMsFXAB6GGUxA31f1dnicUmuCdOerwVDSuiwWN6BxzK4Mus04XYdZO4pITDAD7fVOb1uSre3tDJdddc1UhgVkfmCrqqpGxqznCKw0RUizD4AuXnkLRrPfP7GOEi2muZBdXAFQZPYJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

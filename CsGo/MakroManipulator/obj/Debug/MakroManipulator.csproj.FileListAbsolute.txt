@@ -1,0 +1,15 @@
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MakroManipulator.exe.config
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MakroManipulator.exe.manifest
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MakroManipulator.application
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MakroManipulator.exe
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MakroManipulator.pdb
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\bin\Debug\MouseKeyboardActivityMonitor.xml
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.FormCsGoTool.resources
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.Properties.Resources.resources
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.csproj.GenerateResource.Cache
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.exe.manifest
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.application
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.exe
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.pdb
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\MakroManipulator\obj\Debug\MakroManipulator.csprojResolveAssemblyReference.cache

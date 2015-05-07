@@ -1,0 +1,7 @@
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\bin\Debug\CsGo.exe.config
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\bin\Debug\CsGo.exe
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\bin\Debug\CsGo.pdb
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\bin\Debug\MouseKeyboardActivityMonitor.xml
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\obj\Debug\CsGo.exe
+C:\Users\mkrone\Documents\Visual Studio 2013\Projects\CsGo\CsGo\obj\Debug\CsGo.pdb
